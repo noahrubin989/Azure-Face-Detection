@@ -11,3 +11,9 @@ In a `.env` file at the root of your project directory place the API key and end
 AI_SERVICE_ENDPOINT=your_endpoint
 AI_SERVICE_KEY=your_key
 ```
+
+Additionally, install the Face SDK package by running the following command
+
+```
+ pip install azure-ai-vision-face==1.0.0b2
+```
