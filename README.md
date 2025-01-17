@@ -5,7 +5,7 @@ This repository contains a python script demoinstrating how to use the [Azure Fa
 
 ## Setup
 
-In a `.env` file at the root of the project place the API key and endpoint found in the 'Keys & Endpoint' section within your Azure AI Services resource, like so:
+In a `.env` file at the root of your project directory place the API key and endpoint found in the 'Keys & Endpoint' section within your Azure AI Services resource, like so:
 
 ```
 AI_SERVICE_ENDPOINT=your_endpoint
