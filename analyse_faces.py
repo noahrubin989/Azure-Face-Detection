@@ -142,7 +142,8 @@ def show_results(face_results: List[FaceDetectionResult], image_file: str) -> No
 
 
 def main() -> None:
-    """The main entry point for this script.
+    """
+    The main entry point for this script.
 
     This function:
       1. Sets up the Azure FaceClient.
