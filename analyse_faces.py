@@ -18,9 +18,7 @@ from azure.core.credentials import AzureKeyCredential
 def setup_client() -> FaceClient:
     """Sets up and returns an Azure FaceClient.
 
-    This function loads environment variables from a `.env` file using
-    `load_dotenv()`. It then retrieves the AI service key and endpoint,
-    and uses them to authenticate an Azure FaceClient.
+    This function loads environment variables from a `.env` file using `load_dotenv()`. It then retrieves the AI service key and endpoint, and uses them to authenticate an Azure FaceClient.
 
     Returns:
         FaceClient: An authenticated instance of the Azure FaceClient.
@@ -75,9 +73,8 @@ def call_face_api(
     Calls the Azure Face API to detect faces in the given image content.
 
     Args:
-        client (FaceClient): An authenticated Azure FaceClient instance.
-        face_attributes (List[FaceAttributeTypeDetection03]): The face attributes
-            to retrieve.
+        client (FaceClient): An authenticated Azure FaceClient instance. 
+        face_attributes (List[FaceAttributeTypeDetection03]): The face attributes to retrieve.
         image_content (bytes): The binary content of the image.
 
     Returns:
