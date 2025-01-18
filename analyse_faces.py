@@ -43,8 +43,7 @@ def get_face_attributes() -> List[FaceAttributeTypeDetection03]:
       - MASK
 
     Returns:
-        List[FaceAttributeTypeDetection03]: A list of face attribute
-        enumeration values.
+        List[FaceAttributeTypeDetection03]: A list of face attribute enumeration values.
     """
     return [
         FaceAttributeTypeDetection03.HEAD_POSE,
